@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("12Hello, World!");
+﻿Console.WriteLine("Введите 2 числа");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+if (a > b)
+{
+    Console.WriteLine($"max = {a}");
+}
+else
+{
+    Console.WriteLine($"max = {b}");
+}
